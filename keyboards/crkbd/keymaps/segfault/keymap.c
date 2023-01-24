@@ -161,7 +161,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * | Ctrl  |   `   |   1   |   2   |   3   |   \   | |       |       |       |       |       | Ctrl  |
      * `-----------------------.                       | |                       .-----------------------'
      *                         |-------+-------+-------| |-------+-------+-------|
-     *                         |   .   |   0   |   -   | |       |       |       | 
+     *                         |   0   |   .   |   -   | |       |       |       | 
      *                         `-----------------------' '-----------------------'
      *                                                              Num
      */
@@ -169,7 +169,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_NO,   KC_LBRC, KC_7,    KC_8,    KC_9,    KC_RBRC, U_NA,    U_NA,    U_NA,    U_NA,    RESET,   KC_NO,
     KC_LSFT, KC_SCLN, KC_4,    KC_5,    KC_6,    KC_EQL,  U_NA,    KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, KC_LSFT,
     KC_LCTL, KC_GRV,  KC_1,    KC_2,    KC_3,    UK_BSLS, U_NA,    U_NA,    U_NA,    KC_ALGR, U_NA,    KC_LCTL,
-                      KC_DOT,  KC_0,    KC_MINS, U_NA,    U_NA,    U_NA
+                      KC_0,    KC_DOT,  KC_MINS, U_NA,    U_NA,    U_NA
   ),
 
     /* Sym
