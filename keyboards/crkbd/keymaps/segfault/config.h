@@ -111,4 +111,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #    define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
 #endif
 
+// When targeting the R2G this is the only additional line 
+// needed and still being able to keep build target as rev1
+// #define SPLIT_USB_DETECT
+
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
