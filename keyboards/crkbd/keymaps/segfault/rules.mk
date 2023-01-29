@@ -15,3 +15,6 @@ VIA_ENABLE = no
 
 EXTRAKEY_ENABLE = yes # Audio control and System control
 AUTO_SHIFT_ENABLE = yes # Auto Shift
+
+# Enable hold delay keys
+DYNAMIC_TAPPING_TERM_ENABLE = yes
