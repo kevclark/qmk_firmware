@@ -24,11 +24,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* #undef TAPPING_TERM */
 /* #define TAPPING_TERM 225 */
 
-// Prevent normal rollover on alphas from accidentally triggering mods.
-/* #define IGNORE_MOD_TAP_INTERRUPT */
-
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
-/* #define TAPPING_FORCE_HOLD */
+#define TAPPING_FORCE_HOLD
+
+// Try some suggestions from https://getreuer.info/posts/keyboards/faqs/index.html#home-row-mods-are-hard-to-use
+#define PERMISSIVE_HOLD
 
 // Auto Shift
 /* #define NO_AUTO_SHIFT_ALPHA */
